@@ -1,8 +1,8 @@
 [versions]
 androidGradlePlugin = "8.2.2"
-kotlinGradlePlugin = "2.3.20"
+kotlinGradlePlugin = "1.9.22"
 hiltGradlePlugin = "2.57.1"
-ksp = "1.9.22-1.0.17"
+ksp = "2.3.4"
 
 activityCompose = "1.13.0"
 coreKtx = "1.18.0"

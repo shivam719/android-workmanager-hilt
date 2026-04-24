@@ -1,22 +1,21 @@
-
-
 plugins {
-    alias(libs.plugins.android.application)
+  //  alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin)
     alias(libs.plugins.hilt)
     alias(libs.plugins.ksp)
-    id("org.jetbrains.kotlin.plugin.compose") version "2.3.20"
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
     namespace = "com.santimattius.android.startup"
     compileSdk = 36
     defaultConfig {
-        applicationId = "com.santimattius.android.startup"
+     //   applicationId = "com.santimattius.android.startup"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        //versionCode = 1
+      //  versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
